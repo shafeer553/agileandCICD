@@ -23,14 +23,12 @@ public class ContactCreation_New {
 		//driver.manage().window().maximize();
 		System.out.println("hello ");
 			
-		// IE Browser
+		// IE Browser hello
 		
 		System.setProperty("webdriver.ie.driver", "C:\\Users\\shaiksh\\ShafeerData\\MyDocs\\Project\\Drivers\\IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		driver.get("https://my307028.crm.ondemand.com");
-		driver.manage().window().maximize();
-		// test
-			
+		driver.manage().window().maximize();		
 	// Firefox browser
 		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\shaiksh\\ShafeerData\\MyDocs\\Project\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
